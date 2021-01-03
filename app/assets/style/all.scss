@@ -1,3 +1,36 @@
-@import "functions";
+@import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
-@import "bootstrap";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//helpers
+@import "helpers/mixins";
+@import "helpers/utilities";
+
+// 全站設定
+@import "base/base";
+
+//vendors
+@import "vendors/datepicker";
+@import "vendors/rangeSlider";
+@import "vendors/swiper";
+
+// BS4元件
+@import "components/navbar";
+@import "components/carousel";
+@import "components/nav";
+@import "components/dropdowns";
+@import "components/card";
+@import "components/form";
+// 自訂元件
+@import "components/navigation";
+
+//layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/searchBar";
+
+//pages
+@import "pages/index";
+
+
